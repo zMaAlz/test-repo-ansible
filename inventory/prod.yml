@@ -11,3 +11,8 @@
     hosts:
       localhost:
         ansible_connection: local      
+  pp:
+    hosts:
+      fedora:
+        ansible_connection: docker
+
